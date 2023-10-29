@@ -1,0 +1,32 @@
+body {
+    background-color: #f3e387;
+}
+
+.brand {
+    font-family: Baskervville, sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #dd5709;
+}
+.rest {
+    font-family: Bebas Neue, sans-serif;
+    color: #000000;
+    margin-left: 20px;
+
+}
+
+.thin {
+    font-weight: 300;
+}
+
+.light-bg {
+    background-color: rgb(241, 116, 116);
+}
+
+.dark-bg {
+    background-color: #584e3a;
+}
+
+.main-bg {
+    background-color: #d62a2a;
+}
