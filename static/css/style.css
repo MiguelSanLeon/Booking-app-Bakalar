@@ -1,5 +1,11 @@
 body {
-    background-color: #f3e387;
+    background: #870000;
+     /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #190A05, #870000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #190A05, #870000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Bebas Neue, sans-serif;
 }
 
 .brand {
@@ -10,7 +16,7 @@ body {
 }
 .rest {
     font-family: Bebas Neue, sans-serif;
-    color: #000000;
+    color: white;
     margin-left: 20px;
 
 }
@@ -19,14 +25,28 @@ body {
     font-weight: 300;
 }
 
-.light-bg {
-    background-color: rgb(241, 116, 116);
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.active:focus,
+.navbar-nav .nav-link.active:hover {
+    color: white;
 }
 
-.dark-bg {
-    background-color: #584e3a;
+.navbar-nav .nav-link {
+    color: #dd5709;
 }
 
-.main-bg {
-    background-color: #d62a2a;
+.navbar-nav .nav-link:hover {
+    color: yellow;
+}
+.location {
+    font-size: large;
+    color:#dd5709
+}
+
+.bg-none {
+    background: none;
+}
+
+.custom-btn {
+    --bs-btn-padding-x: 2rem;
 }
