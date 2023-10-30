@@ -8,6 +8,10 @@ body {
     font-family: Bebas Neue, sans-serif;
 }
 
+h3 {
+    color:white;
+}
+
 .brand {
     font-family: Baskervville, sans-serif;
     font-size: 2.4rem;
@@ -49,4 +53,8 @@ body {
 
 .custom-btn {
     --bs-btn-padding-x: 2rem;
+}
+
+.bg-custom {
+    background-color: rgb(0, 0, 0, .5);
 }
