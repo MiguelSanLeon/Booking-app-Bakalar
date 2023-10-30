@@ -8,5 +8,5 @@ from .models import Booking
 class HomePage(View):
     template_name = "index.html"
 
-    def get(serf, request, *args, **kwargs):
+    def get(self, request, *args, **kwargs):
         return render(request, "index.html")
